@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Login Page</title>
+    <style>
+        .container {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            width: 500px;
+            height: 500px;
+            background-color: #c2c5aa;
+            opacity: 80%;
+            border-radius: 15px;
+        }
+        
+        .data,
+        form {
+            padding: 10px;
+            margin: 0 auto;
+            display: flex;
+            display: block;
+            justify-content: center;
+        }
+        
+        img {
+            border-radius: 50px;
+        }
+        
+        .design {
+            padding: 10px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .new {
+            padding: 10px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            width: 300px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <br><br><br>
+    <section class="container">
+        <div class="data">
+            <nav class="design">
+                <img src="logo.jpeg" width="80px" height="80px">
+            </nav>
+            <nav class="design">
+                <h3>Please sign in</h3>
+            </nav>
+            <form>
+                <input type="email" class="new" placeholder="Email Address">
+                <input type="password" class="new" placeholder="Password">
+                <nav class="design">
+                    <input type="checkbox" id="remember">Remember me</nav>
+                <nav class="design">
+                    <button type="submit">Sign in</button>
+                </nav>
+            </form>
+            <br><br>
+            <nav class="design">
+                @2020-2021
+            </nav>
+        </div>
+    </section>
+</body>
+
+</html>
